@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="660"
+   height="1060"
+   viewBox="0 0 174.625 280.45833"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="MeLogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.14061442"
+     inkscape:cx="540.48511"
+     inkscape:cy="1891.6979"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#000000;stroke-width:0.269194"
+       d="m 88.535419,1.5840943 c -7.0358,0 -12.7,5.86333 -12.7,13.1464787 v 62.85095 h -58.2414 c -9.0695896,0 -16.3710996,5.6642 -16.3710996,12.7 0,7.0358 7.30151,12.699987 16.3710996,12.699987 h 58.2414 v 165.91441 c 0,7.28315 5.6642,13.14649 12.7,13.14649 7.0358,0 12.700001,-5.86334 12.700001,-13.14649 V 102.98151 h 58.24141 c 9.06958,0 16.37109,-5.664187 16.37109,-12.699987 0,-7.0358 -7.30151,-12.7 -16.37109,-12.7 h -58.24141 v -62.85095 c 0,-7.2831487 -5.664201,-13.1464787 -12.700001,-13.1464787 z" />
+  </g>
+</svg>
