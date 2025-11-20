@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import styles from './Typewritter.module.scss'
 
 export default function MyTypewriter() {
   return (
@@ -6,13 +7,15 @@ export default function MyTypewriter() {
       {" "}
       <span className="typewriter-text">
         <Typewriter
+          className={styles.typewritter}
           options={{
             strings: [
-              "Web Developer ...",
-              "Web Designer ...",
-              "Front End Developer ...",
-              "Full Stack Developer ...",
-              "Linux System Admin ...",
+              "Web/App Developer  ",
+              "Web/App Designer  ",
+              "Front End Developer  ",
+              "Full Stack Developer  ",
+              "Linux System Admin  ",
+              "DevOps Student   ",
             ],
             autoStart: true,
             loop: true,

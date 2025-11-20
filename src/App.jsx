@@ -1,17 +1,15 @@
-import './App.css'
+import styles from './App.module.scss'
 
 // Components 
-import Nav from './components/Nav.jsx'
-import MainContent from './components/MainContent.jsx' 
-import Footer from './components/Footer.jsx'
+import { Nav, MainContent, Footer } from './components'
 
 function App() {
   return (
-    <>
+    <main className={styles.app_container}>
       <Nav />
       <MainContent />
       <Footer />
-    </>
+    </main>
   )
 }
 

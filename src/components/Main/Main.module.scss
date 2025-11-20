@@ -1,0 +1,56 @@
+// ===============================================================
+//    MIXINS
+// ===============================================================
+
+@mixin flex-center($direction: row, $gap: 1rem) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+// 
+$spacing: 1rem;
+$text-color1: var(--dark-secondary-color2);
+$text-color2: var(--dark-accent-color1);
+
+.main_attraction {
+  @include flex-center(column, $spacing);
+  justify-content: center;
+  background-color: var(--dark-primary-color1);
+  width:  90%;
+  height: 90%;
+  padding: $spacing;
+  color: $text-color2;
+
+  & > * {
+    // border: 1px solid black;
+    width: 100%;
+    padding: $spacing;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bio {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: $text-color1;
+
+    span {
+      h2 {
+        font-style: normal;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0.4rem 0;
+        padding: 0;
+        letter-spacing: 3px;
+        // border: 1px solid black
+      }
+    }
+  } // BIO
+}
+ 

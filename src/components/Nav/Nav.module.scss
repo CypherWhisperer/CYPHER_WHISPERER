@@ -1,0 +1,39 @@
+// ===============================================================
+//    MIXINS
+// ===============================================================
+
+@mixin flex-center($direction: row, $gap: 1rem) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+// SCSS VARIABLES
+$navigation-height: 3.5rem;
+$navigation-spacing: 1rem;
+
+.header {
+  width: 100%;
+  height: max-content; // or auto
+  background-color: var(--dark-primary-color1);
+
+  .navigation {
+    @include flex-center(row, $navigation-spacing);
+    justify-content: space-between;
+    width: 100%;
+    height: $navigation-height;
+    padding: 0.2rem $navigation-spacing;
+
+    & > svg {
+      fill: var(--dark-secondary-color2);
+      // fill: var(--dark-accent-color1);
+
+      &:last-child {
+        transform: scale(0.6);
+      }
+    }
+
+  } // NAVIGATION
+} // HEADER

@@ -1,0 +1,7 @@
+export { default as Nav } from "./Nav/Nav.jsx"
+export { default as Main } from "./Main/Main.jsx"
+export { default as MainContent } from "./MainContent/MainContent.jsx"
+export { default as LogoCarousel } from "./LogoCarousel/LogoCarousel.jsx"
+export { default as Verse } from "./Verse/Verse.jsx"
+export { default as MyTypewritter } from "./Typewritter/Typewritter.jsx"
+export { default as Footer } from "./Footer/Footer.jsx"

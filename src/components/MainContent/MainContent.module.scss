@@ -1,0 +1,18 @@
+// ===============================================================
+//    MIXINS
+// ===============================================================
+
+@mixin flex-center($direction: row, $gap: 1rem) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+.main_content {
+  @include flex-center();
+  flex: 1;
+  gap: 0;
+  background-color: var(--dark-primary-color1);
+}
